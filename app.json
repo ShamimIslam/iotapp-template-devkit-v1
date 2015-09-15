@@ -1,0 +1,16 @@
+{
+	"repoName":"iotapp-template-IoT Devkit v1",
+	"title":"Fundamental functionality of the sensor altogether(LCD,LED, Light sensor)  ",
+	"tooltip":"A node.js based app that that demonstrates the fundamental functionality of the of the sensors in the Intel IoT Devkit via mraa or upm.",
+	"description":"A node.js based app that that demonstrates the fundamental functionality of the of the sensors in the Intel IoT Devkit via mraa or upm.",
+	"articleUrl":" ",
+    "screenshotUrl":"",
+    "iconUrl":"",
+	"highlights":[""],
+    "keywords":[""],
+	"visible": true,
+	"apppreview":false,
+	"appName":"demo.IoT Devkit v1",
+	"relname":"4.0.0",
+	"projectTypeName": "com.intel.xdk.projecttype.iotapp"
+}

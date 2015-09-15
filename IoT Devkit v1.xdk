@@ -1,0 +1,24 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.2",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.iotapp",
+      "src": "https://appcenter.html5tools-software.intel.com/api/v2.0/redirect/projectrenderers/release-2015-ww25/iotapp/templates-lcd-driver/sample.zip",
+      "projectGuid": "102cbd95-1fe4-4310-a820-98ad5785a02e",
+      "lastModifiedDate": 1440612600789,
+      "creationDate": 1440612600698
+    },
+    "sourceDirectory": "",
+    "cordovaPluginsDirectory": "plugins",
+    "startFile": "main.js",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [],
+    "cordovaPlugins": [],
+    "serviceMethods": [],
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [],
+    "buildConfigurations": {}
+  }
+}
