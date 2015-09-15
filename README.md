@@ -1,22 +1,19 @@
-Demonstration of code to drive an LCD
-=====================================
+Demonstration of IoT devkit v1
+===============================
 
-This example drives a JHD1313m1 LCD as found in the Grive Starter Kit. This connects
-to an i2c buss.
+This example drives a JHD1313m1 LCD as found in the *Grove Starter Kit. This connects
+to an i2c buss.Light sensor from the kit connects to A0 socket and LED connects to D2 socket.
 
-The code can be used in either of two ways. By default, it will use the upm module. This
+The code for Display(LCD) be used in either of two ways. By default, it will use the upm module. This
 is much the simpler way to drive a upm supported device. 
 
-By commenting out the call to the upm code and uncommenting the useLcd call, you can also
-drive the device directly using the lcd module. The purpose of this is to demonstrate 
-driving the i2c buss directly from Javascript. Notice that we need delays between some
-of the bus transactions. There is no direct equivalent to "wait" in Javascript. Instead
-we have to set up a callback on a timer. So lcd.js creates a queue driven execution
-engine for i2c devices.
+The purpose of this is to demonstrate that multiple sensors in this case LCD, LED and Light sensor can work together.
+UseUpm is the main function which contains all the intilatization of different module and variables. It compares the 
+lux value as it reaches to threshold value it switches on/off between LED.For scrolling long strings i.e.(length > 16) 
+there are two functions scroll and loop which are resposible.The Values in the array are taken from *seed grove wiki page.
 
-The advantage of this is that you can do other things while waiting for the buss to respond. 
-For some applications this may be important but for most, the blocking waits used by upm will
-not cause problems.
+
+Now at the end Comparing all the lux values to display appropriate message on LCD. 
 
 
 Intel(R) XDK
@@ -29,7 +26,6 @@ please visit the sample article page at https://software.intel.com/en-us/xdk-sam
 Important App Files
 ---------------------------
 * main.js
-* lcd.js
 * package.json
 * README.md
 
