@@ -20,7 +20,7 @@ Intel(R) XDK
 -------------------------------------------
 This template is part of the Intel(R) XDK IoT Edition.
 Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample,
-please visit the sample article page at https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app.
+please visit the sample article page at https://software.intel.com/en-us/articles/creating-an-app-which-uses-multiple-sensorslcd-led-light-sensor-iot-devkit-v1sssss
 
 
 Important App Files
