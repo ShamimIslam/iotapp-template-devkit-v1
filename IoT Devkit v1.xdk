@@ -21,10 +21,10 @@
     "cordovaPlugins": [],
     "serviceMethods": [],
     "buildConfigurations": {
-      "Android": {
+      "Android-Crosswalk": {
         "platform_": "android",
-        "runtime_": "Cordova 3.x",
-        "name_": "Android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
@@ -45,13 +45,12 @@
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "?",
-
         "cordovaCLIVersion_": "?"
       },
-      "Android-Crosswalk": {
+      "Android": {
         "platform_": "android",
-        "runtime_": "Crosswalk with Cordova 3.x",
-        "name_": "Android-Crosswalk",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
