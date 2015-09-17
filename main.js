@@ -58,7 +58,6 @@ else {
  */
 function useUpm() {
     var lcd = require('jsupm_i2clcd');
-   
     var display = new lcd.Jhd1313m1(0, 0x3E, 0x62);
    
     var groveSensor = require('jsupm_grove');
@@ -80,7 +79,7 @@ function useUpm() {
    var strings = ["" ,"Full moon overhead at tropical latitudes", "Twilight in the city", "Family living room", "Office building light in hallway","Very dark, overcast day", "Not sure" ];// Array of strings
 /**
  * For scrolling long strings i.e.(length > 16)
- *
+ * Values in the array are taken from *seed grove wiki page
  * Note that this does not use the "lcd.js" code at all
  */
    function loop(bool,count){
