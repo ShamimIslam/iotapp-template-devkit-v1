@@ -3,29 +3,29 @@
 /*jslint node:true, vars:true, bitwise:true, unparam:true */
 /*jshint unused:true */
 /*
-The IoT Devkit v1 - Peripheral Node.js sample application distributed within Intel® XDK IoT Edition under the IoT with Node.js Projects project creation that demonstrates the fundamental functionality of the of the sensors in the Intel IoT Devkit via mraa or upm by using three sensors(LCD, Temperature sensor, LED) within the SEEED* Grove kit .
+The IoT Devkit v1 - This Node.js sample application distributed within Intel® XDK IoT Edition under the IoT with Node.js project creation that demonstrates the fundamental functionality of the sensors in the Intel IoT Devkit via mraa or upm by using three sensors(LCD, Temperature sensor, LED) within the SEEED* Grove kit .
 
-Drive the Grive RGB LCD (a JHD1313m1). We can do this in either of two ways.The bext way is to use the upm library, which contains support for this device.The alternative way is to drive the LCD directly from Javascript code using the i2c interface directly.In this sample UPM method is used.
+Drive the Grove RGB LCD (a JHD1313m1). We can do this in either of two ways.The best way is to use the upm library, which contains support for this device.The alternative way is to drive the LCD directly from Javascript code using the i2c interface directly.In this sample UPM method is used.
 
 
-UPM - UPM is a high level repository for sensors that use libmraa. Each sensor links to libmraa and are not meant to be interlinked although some groups of sensors may be. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
+UPM - UPM is a high level repository for sensors that use libmraa. Each sensor links to libmraa and are not meant to be interlinked although some groups of sensors are linked. Each sensor contains a header which allows to interface with it. Typically a sensor is represented as a class and instantiated.
 
-Steps for installing/updating MRAA & UPM Library on Intel IoT Platforms with IoTDevKit Linux* image
+Steps for installing/updating MRAA & UPM on Intel IoT Platforms with IoTDevKit Linux image
 Using a ssh client: 
 1. echo "src maa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/intel-iotdk.conf
 2. opkg update
 3. opkg upgrade
 
 OR
-In Intel XDK IoT Edition under the Develop Tab (for Internet of Things Embedded Application)
-Develop Tab
+In Intel XDK IoT Edition for Internet of Things Embedded Application
+
 1. Connect to board via the IoT Device Drop down (Add Manual Connection or pick device in list)
 2. Press the "Settings" button
 3. Click the "Update libraries on board" option
 
 Review README.md file for more information about enabling IoT Devkit v1 and completing the desired configurations.
 
-TBD Article: 
+Article: https://software.intel.com/en-us/articles/creating-an-app-which-uses-multiple-sensorslcd-led-light-sensor-iot-devkit-v1
 */
 
 
