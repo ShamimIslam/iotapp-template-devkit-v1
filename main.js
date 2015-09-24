@@ -25,7 +25,7 @@ In Intel XDK IoT Edition for Internet of Things Embedded Application
 
 Review README.md file for more information about enabling IoT Devkit v1 and completing the desired configurations.
 
-Article: https://software.intel.com/en-us/articles/creating-an-app-which-uses-multiple-sensorslcd-led-light-sensor-iot-devkit-v1
+Article: https://software.intel.com/en-us/creating-project-with-lightsensor-led-lcd
 */
 
 
