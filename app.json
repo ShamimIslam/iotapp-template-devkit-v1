@@ -6,10 +6,10 @@
   "visible" : true,
   "sortWeight" : "0.0",
   "repoName":"iotapp-template-devkit-v1",
-  "tooltip":"A node.js based app that that demonstrates the fundamental functionality of the of the sensors in the Intel IoT Devkit via mraa or upm.",
-  "description":"A node.js based app that that demonstrates the fundamental functionality of the of the sensors in the Intel IoT Devkit via mraa or upm.",
+  "tooltip":"Demonstrate fundamental functionality of the Intel IoT Devkit mraa and upm libraries using an LCD display.",
+  "description":"A Node.js app that that demonstrates the fundamental functionality of the Intel IoT Devkit mraa and upm libraries via the use of an LCD display.",
   "articleUrl" : "https://software.intel.com/en-us/articles/creating-an-app-which-uses-multiple-sensorslcd-led-light-sensor-iot-devkit-v1",
-  "keywords" : [""],
+  "keywords" : ["mraa","upm","LCD"],
   "targets": ["edison","galileo"],
   "runtimes": ["node"]
 }
