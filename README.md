@@ -1,6 +1,5 @@
-Demonstration of IoT devkit v1
-==============================
-
+Intel® XDK IoT Node.js\* mraa and upm Demo App
+==============================================
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
